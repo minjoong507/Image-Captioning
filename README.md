@@ -40,6 +40,9 @@ python sample.py
 - [ ] Description of the model and other details
 - [ ] Code Refactoring
 
+## License
+[MIT License](https://opensource.org/licenses/MIT)
+
 ## Reference
 [1] [yunjey/pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)
 
