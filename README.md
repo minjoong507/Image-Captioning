@@ -22,7 +22,7 @@
 For train
 
 ```
-cd srd
+cd src
 python train.py
 ```
 
@@ -32,6 +32,11 @@ For test
 cd src
 python sample.py
 ```
+
+## TODO List
+- [ ] TensorBoard
+- [ ] Description of the model and other details
+- [ ] Code Refactoring
 
 ## Reference
 [1] [yunjey/pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)
