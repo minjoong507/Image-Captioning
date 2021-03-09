@@ -39,6 +39,7 @@ python sample.py
 - [ ] TensorBoard
 - [ ] Description of the model and other details
 - [ ] Code Refactoring
+- [ ] Upload requirements.txt
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
