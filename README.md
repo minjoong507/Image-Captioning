@@ -35,6 +35,13 @@ cd src
 python sample.py
 ```
 
+## Result
+- Epoch 100
+
+![img](https://github.com/minjoong507/Image-Captioning/blob/master/image/000000435205.jpg)
+> Caption : <start> a woman holding a teddy bear in a suit case <end>
+
+
 ## TODO List
 - [ ] TensorBoard
 - [ ] Description of the model and other details
