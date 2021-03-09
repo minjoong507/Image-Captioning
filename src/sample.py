@@ -15,7 +15,7 @@ class sample:
     def __init__(self):
         parser = argparse.ArgumentParser(description='Image Captioning')
         parser.add_argument('--root', default='../../../cocodataset/', type=str)
-        parser.add_argument('--sample_image', default='../../../cocodataset/val2017/000000579321.jpg', type=str)
+        parser.add_argument('--sample_image', default='../../../cocodataset/val2017/000000435205.jpg', type=str)
         parser.add_argument('--epochs', default=100, type=int)
         parser.add_argument('--lr', default=1e-4, type=float)
         parser.add_argument('--batch_size', default=128, help='')
