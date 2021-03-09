@@ -19,14 +19,14 @@
 - cuda 11.0
 
 ## How to use
-For train
+- For train
 
 ```
 cd src
 python train.py
 ```
 
-For test
+- For test
 
 ```
 cd src
