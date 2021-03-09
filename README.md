@@ -8,7 +8,9 @@
 
 - Using [COCO dataset](https://cocodataset.org/#home) 2017 Val images [5K/1GB], annotations [241MB].
 
-- Please check the make_vocab.py and data_loader.py. *Vocab.pickle* is a pickle file which contains all the words in the annotations. *coco_ids.npy* stores the image ID to be used. Also, you have to set the path or other settings.
+- Please check the make_vocab.py and data_loader.py. 
+  - **Vocab.pickle** is a pickle file which contains all the words in the annotations. 
+  - **coco_ids.npy** stores the image ID to be used. Also, you have to set the path or other settings.
 
 - You can run the source code and try out your own examples. 
 
