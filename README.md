@@ -12,15 +12,25 @@
 
 - You can run the source code and try out your own examples. 
 
-## Enviroment
+## Environment
 
 - Python 3.8.5
 - Pytorch 1.7.1
 - cuda 11.0
 
 ## How to use
+For train
+
 ```
+cd srd
 python train.py
+```
+
+For test
+
+```
+cd src
+python sample.py
 ```
 
 ## Reference
