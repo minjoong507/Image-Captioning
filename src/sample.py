@@ -24,7 +24,7 @@ class sample:
         parser.add_argument('--hidden_size', default=512, type=int)
         parser.add_argument('--num_layers', default=1, type=int)
         parser.add_argument('--encoder_path', default='./model/Encoder-100.ckpt', type=str)
-        parser.add_argument('--decoder_path', default='./model/Deocder-100.ckpt', type=str)
+        parser.add_argument('--decoder_path', default='./model/Decoder-100.ckpt', type=str)
         parser.add_argument('--vocab_path', default='./vocab/', type=str)
 
         self.args = parser.parse_args()

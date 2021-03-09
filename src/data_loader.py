@@ -18,7 +18,7 @@ class ImageCaption_DataLoader(data.Dataset):
         self.vocab = vocab
         self.coco = COCO(self.root + 'annotations/captions_val2017.json')
         self.coco_ids = list(self.coco.anns.keys())
-        self.ids = list(np.load('coco idx.npy')) # self.preprocess_idx()
+        self.ids = list(np.load('vocab/coco_idx.npy')) # self.preprocess_idx()
         self.transform = transform
 
     def __getitem__(self, idx):
@@ -68,7 +68,7 @@ class ImageCaption_DataLoader(data.Dataset):
 
         print('Saved coco idx file!')
 
-        np.save('coco idx.npy', np.array(preprocess))
+        np.save('vocab/coco_idx.npy', np.array(preprocess))
 
         return preprocess
 
