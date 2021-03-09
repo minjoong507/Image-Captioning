@@ -10,7 +10,7 @@
 
 - Please check the make_vocab.py and data_loader.py. 
   - **Vocab.pickle** is a pickle file which contains all the words in the annotations. 
-  - **coco_ids.npy** stores the image ID to be used. Also, you have to set the path or other settings.
+  - **coco_ids.npy** stores the image ID to be used. Also, you have to set the path or other settings. Execute *prerocess_idx* function.
 
 - You can run the source code and try out your own examples. 
 
